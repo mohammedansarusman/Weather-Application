@@ -23,7 +23,7 @@ function getData(){
                             <h3>Max Temperature: ${data.main.temp_max}</h3>
                             <h3>Min Temperature: ${data.main.temp_min}</h3> `
 
-            
+            // hello check git
     })
     .catch((data)=>{
         condition.innerHTML=`<h1>City not found</h1>`
